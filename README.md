@@ -4,8 +4,10 @@
 ### level 3 heading
 This is a new line I wrote
 
-**Bold Text** or __Bold Text__
+**Bold Text** 
+__Bold Text__
 *Italic Text*
+__Italic Text__
 
 - list 1
 - list 2
@@ -17,3 +19,4 @@ This is a new line I wrote
 
 [Link Text](https://canvas.sydney.edu.au/courses/64347/pages/week-9-tutorial?module_item_id=2585757)
 ![An image of a cat](https://placekitten.com/200/300)
+![An image of the Mona Lisa](readmeImages/Mona_Lisa_by_Leonardo_da_Vinci_500_x_700.jpg)
