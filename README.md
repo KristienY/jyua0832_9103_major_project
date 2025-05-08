@@ -10,9 +10,9 @@ The entire artwork spins **as a circle**, and by leveraging **the visual effect 
 
 This illusion of movement created through circular motion is the key technique I want to incorporate into my assignment.
 
-[Link Text](https://openprocessing.org/sketch/563436)
-![An image 1](readmeImages/Phenakistiscope1.png)
-![An image 2](readmeImages/Phenakistiscope2.png)
+[Website Link](https://openprocessing.org/sketch/563436)
+![An image 1](assest/Phenakistiscope1.png)
+![An image 2](assest/Phenakistiscope2.png)
 
 ## Coding Technique Exploration
 
