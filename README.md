@@ -1,28 +1,31 @@
-# jyua0832_9103_major_project
+# Week9 Quiz
 
-## level 2 heading
-### level 3 heading
-This is a new line I wrote
+## Imaging Technique Inspiration
 
-**Bold Text** 
-__Bold Text__
-*Italic Text*
-__Italic Text__
+This artwork resembles a **clock**, where each number position is replaced by small human figures. At every hour mark stands a couple—a man in a tailcoat and a woman in a gown—shown in various dance poses. 
 
-- list 1
-- list 2
-  - sublist 1
-  - sublist 2
+The piece is **moving with symphonic music (BGM)** and allows interaction: Press LEFT and RIGHT ARROW KEYS to adjust rotation speed. HOLD mouse to pause. RELEASE mouse to resume.
 
-1. list1
-2. list2
+The entire artwork spins **as a circle**, and by leveraging **the visual effect of fast rotation**, the figures appear to be **ballroom dancing in smooth, elegant motion**. 
 
-[Link Text](https://canvas.sydney.edu.au/courses/64347/pages/week-9-tutorial?module_item_id=2585757)
-![An image of a cat](https://placekitten.com/200/300)
-![An image of the Mona Lisa](readmeImages/Mona_Lisa_by_Leonardo_da_Vinci_500_x_700.jpg)
+This illusion of movement created through circular motion is the key technique I want to incorporate into my assignment.
 
-```
-function helloWorld() {
-console.log("Hello, world!");
-}
-```
+[Link Text](https://openprocessing.org/sketch/563436)
+![An image 1](readmeImages/Phenakistiscope1.png)
+![An image 2](readmeImages/Phenakistiscope2.png)
+
+## Coding Technique Exploration
+
+The technique is super easy but visual effect is amazing.
+
+1. Draw a circle  
+use __createCircle()__ function
+
+2. Assign each figure with fixed angle by using sine/cosine functions to calculate its (x, y) position
+use __let angle = (TWO_PI / count) * i__ function
+
+3. The entire circle is rotated as a whole by updating the base angle. This creates the illusion that the figures are dancing fluidly around a center point.
+use __getPointOnCircle(centerX, centerY, radius, angle)__ function
+
+4. The press button
+use __function keyPressed()__, __function mousePressed()__, __function mouseReleased()__.
